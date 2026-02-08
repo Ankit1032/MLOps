@@ -1,0 +1,15 @@
+Video Link: https://www.youtube.com/watch?v=eQoKK5KNGLY
+1. pip install . --> This will install packages from the setup
+
+2. RUn the .iynb file to check if all the libs are installed and program is running fine
+
+3. Open Terminal and Run : cd docker --> docker compose up 
+                                [OR If running for first time] then docker compose up --build
+
+4. Same Terminal: python
+    >>> import ml_monitor
+    >>> ml_monitor.control.start()
+
+5. Grafana
+    - username: admin
+    - password: ml_monitor
